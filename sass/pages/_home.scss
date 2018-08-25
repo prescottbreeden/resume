@@ -1,0 +1,71 @@
+body {
+	width: 100vw;
+	background-color: #ddd;
+	box-sizing: border-box;
+}
+.logo {
+	position: fixed;
+	top: 3rem;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 14rem;
+	width: auto;
+	z-index: -1;
+	display: none;
+}	
+.primary-heading {
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+.header {
+	width: 100%;
+	// padding-left: 16rem;
+	padding-top: 5rem;
+	background-color: #333;
+	color: #f7f7f7;
+	height: 14rem;
+	text-align: center;
+
+	&__primary-heading {
+		font-size: 5rem;
+		font-weight: 300;
+	}
+
+	&__secondary-heading {
+		font-size: 3rem;
+		color: #F2845C;
+	}
+}
+.hero {
+	padding: 3rem;
+
+	&__text {
+		font-size: 1.7rem;
+	//	font-weight: 100;
+	}
+}
+.tech {
+	padding-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+
+	&__secondary-heading {
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
+
+	&__container {
+		width: 20%;
+
+		&--list {
+
+		}
+
+		&--item {
+			font-size: 1.5rem;
+
+		}
+	}
+}

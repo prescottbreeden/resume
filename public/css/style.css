@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: Raleway; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqhPAMif.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Raleway Light"), local("Raleway-Light"), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqZPAA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway-Regular"), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+body {
+  width: 100vw;
+  background-color: #ddd;
+  box-sizing: border-box; }
+
+.logo {
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 14rem;
+  width: auto;
+  z-index: -1;
+  display: none; }
+
+.primary-heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center; }
+
+.header {
+  width: 100%;
+  padding-top: 5rem;
+  background-color: #333;
+  color: #f7f7f7;
+  height: 14rem;
+  text-align: center; }
+  .header__primary-heading {
+    font-size: 5rem;
+    font-weight: 300; }
+  .header__secondary-heading {
+    font-size: 3rem;
+    color: #F2845C; }
+
+.hero {
+  padding: 3rem; }
+  .hero__text {
+    font-size: 1.7rem; }
+
+.tech {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center; }
+  .tech__secondary-heading {
+    font-size: 2rem;
+    text-transform: uppercase; }
+  .tech__container {
+    width: 20%; }
+    .tech__container--item {
+      font-size: 1.5rem; }
